@@ -250,6 +250,7 @@ nav {
     position: relative;
     }
 .header .link.current::after {
+    top: 44px;
     content: '';
     display: block;        
     position: absolute;
@@ -847,9 +848,6 @@ nav {
     text-decoration: none;
     padding-bottom: 20px;
 }
-/*.footer-newslatter {
-    padding-top: 10px;
-}*/
 .footer-newslatter span {
     display: block;
     margin-top: 14px;
